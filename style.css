@@ -5,6 +5,7 @@
 }
 html{
     scroll-behavior: smooth;
+
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     color: rgb(255, 255, 255);
     font-family: 'Nunito', sans-serif;
     font-family: 'Roboto Mono', monospace;
+    width: 100%;
 }
 .container{
     padding: 10px 10%;
@@ -30,6 +32,11 @@ nav {
 
 .left {
     font-size: 1.75rem;
+}
+
+#element{
+    font-size: 2rem;
+    color: #ccabe0;
 }
 
 nav ul {
@@ -95,13 +102,21 @@ nav ul li a:hover::after {
 }
 
 
-hr {
+/*hr {
     border: 0;
     background: rgb(254, 254, 254);
-    height: 2.5px;
+    height: 2.4px;
     width: 100%;
-    margin: 10px;
+    margin: 15px;
+}*/
+hr {
+    border: none;
+    background-color: rgb(254, 254, 254);
+    height: 2.4px;
+    width: calc(100% + 30px);  /* Adjust this value as needed */
+    margin: 15px -15px;  /* Adjust this value as needed */
 }
+
 
 
 /*img {
@@ -235,7 +250,7 @@ margin: 15px 5px;
 /*------contact me---------*/
 
 #contact{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .contact-left{
